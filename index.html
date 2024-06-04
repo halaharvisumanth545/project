@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Sumanth raj Halaharvi">
+        <meta name="description" content="This is my first HTML project">
+        <meta charset="UTF-8">
+        <style>
+            html{
+                font-size: 20px;
+            }
+            body{
+                background-color: aquamarine;
+                color: black;
+            }
+        </style>
+        <link rel="icon" href="taco.jpg" type="image/x-icon">
+        <title>Little Taco Shop(LTS)</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to The Little Taco Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About LTS</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="storehours.html">Store Hours</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <figure>
+                <img src="tacowithdrink.jpg" alt="Taco with a drink" width="400" title="Taco">
+                <figcaption>Tacos and a drink</figcaption>
+            </figure>
+            <h2 id="about">About <abbr title="Little Taco Shop">LTS</abbr></h2>
+            <p>
+                <abbr title="Little Taco Shop">LTS</abbr> was founded in 2022. Our shop was built from a <strong>love of tacos</strong>. We hope our shop adds a uniqueand interesting place to our little town.
+            </p>
+            <h3>Taco Trivia</h3>
+            <aside>
+                <details>
+                    <summary>When did tacos first appear in India?</summary>
+                    <p>Chenna Reddy, taco historian and professor of computer science at the Jawaharlal Nehru Technological University Anantapuramu, says the earliest mention of tacos in India is in the national newspaper from 1987. <br> (Source: <a href="https://www.britannica.com/topic/taco" target="_blank"><i>the britannica magazine.</i></a>)</p>
+                </details>
+            </aside>
+            <hr>
+            <h2 id="menu">Our Menu</h2>
+            <table border="3">
+                <thead> 
+                    <tr>
+                        <td colspan="3" align="center">Our Tacos</td>
+                    </tr>   
+                    <tr>
+                        <th>Tacos</th>
+                        <th><abbr title="Quantity">Qty</abbr></th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="3">Crunchy</th>
+                        <td>1</td>
+                        <td>100/-</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>150/-</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>250/-</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Soft</th>
+                        <td>1</td>
+                        <td>150/-</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>250/-</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Chips & Salsa = 130/-</td>
+                    </tr>
+                </tbody>
+            </table> 
+            <a href="#">Back to top</a>
+            <hr>      
+        </main>
+        <footer>
+            <p>Copyright &copy; The Little Taco Shop</p>
+        </footer>
+    </body>
+</html>

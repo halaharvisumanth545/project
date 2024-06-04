@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Sumanth raj Halaharvi">
+        <meta name="description" content="This is my first HTML project">
+        <meta charset="UTF-8">
+        <style>
+            html{
+                font-size: 20px;
+            }
+            body{
+                background-color: aquamarine;
+                color: black;
+            }
+        </style>
+        <link rel="icon" href="taco.jpg" type="image/x-icon">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About LTS</a></li>
+                    <li><a href="index.html">Our Menu</a></li>
+                    <li><a href="storehours.html">Store Hours</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <figure>
+                <img src="tacooooo.jpg" alt="Taco" width="400">
+                <figcaption>Little Taco Shop Tacos</figcaption>
+            </figure>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send Us A Message</legend>
+                    <p>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name">
+                    </p> 
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <label for="message1">Your Message: </label><br>
+                    <textarea name="message1" id="message1" cols="50" rows="5" placeholder="Type your message here"></textarea> 
+                </fieldset>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                <button type="reset">Reset</button>
+            </form>
+            <h2>Our Location</h2>
+            <address>
+                3/399, 3rd Road, TacoTemptation Lane, Suite H, Anantapur City, AP<br>
+                <p><i>Phone:</i><a href="tel:8639355362">8639355362</a></p>
+            </address>
+            <p><a href="#">Back to Top</a></p>
+        </main>
+        <footer>
+            <p>Copytight &copy; The Little Taco Shop</p>
+        </footer>
+    </body>
+</html>
